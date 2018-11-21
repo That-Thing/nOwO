@@ -326,4 +326,4 @@ async def on_message(message):
 
 
 
-bot.run("NTA3OTc0NjU0ODQ2MzA0MjY2.Dr47Lw.scaF9djFdZPF9ntS9jwuYk4tZvk")
+bot.run("Nope")
