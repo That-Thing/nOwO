@@ -1,11 +1,12 @@
 #nOwO
+#is made of very strong and good materials.
 import discord
 from discord.ext import commands
 from discord.ext.commands import Bot
 import asyncio
 
 #bot prefix
-bot = commands.Bot(command_prefix='//')
+bot = commands.Bot(command_prefix='n.')
 
 #bot startup message
 @bot.event
@@ -22,7 +23,18 @@ async def on_ready():
 async def on_message(message):
     if bot.user.id != message.author.id:
         print (message.content.lower)
-    if message.author.id == ("507974654846304266"): #exception for nOwO
+    if message.author.id == ("204721061411946496"): #exception for me
+       pass
+    elif message.author.id == ("507974654846304266"): #exception for nOwO
+       pass
+    elif message.author.id == ("425082463845482506"): #exception for Anti-UwU gun
+       pass
+    elif message.author.id == ("439205512425504771"): #exception for NotSoBot
+       pass
+    elif message.author.id == ("172002275412279296"): #exception for Tatsumaki
+       pass
+    elif message.author.id == ("155149108183695360"): #exception for Dyno Bot
+       pass
              
 #the magnificent list of banned words
     elif "UwU" in message.content:
@@ -127,11 +139,6 @@ async def on_message(message):
         print ("Another libtard PWNED")        
     elif "AwA" in message.content:
         await bot.send_message(message.channel, "__**GET THE HELL OUT OF HERE WITH YOUR GAY AwA's**__")
-        await bot.kick(message.author)
-        await bot.add_reaction(message, emoji="🖕")
-        print ("Another libtard PWNED")
-    elif "awa" in message.content:
-        await bot.send_message(message.channel, "__**GET THE HELL OUT OF HERE WITH YOUR GAY awa's**__")
         await bot.kick(message.author)
         await bot.add_reaction(message, emoji="🖕")
         print ("Another libtard PWNED")
@@ -319,4 +326,4 @@ async def on_message(message):
 
 
 
-bot.run("token")
+bot.run("NTA3OTc0NjU0ODQ2MzA0MjY2.Dr47Lw.scaF9djFdZPF9ntS9jwuYk4tZvk")
