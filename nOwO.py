@@ -23,18 +23,8 @@ async def on_ready():
 async def on_message(message):
     if bot.user.id != message.author.id:
         print (message.content.lower)
-    if message.author.id == ("204721061411946496"): #exception for me
-       pass
-    elif message.author.id == ("507974654846304266"): #exception for nOwO
-       pass
-    elif message.author.id == ("425082463845482506"): #exception for Anti-UwU gun
-       pass
-    elif message.author.id == ("439205512425504771"): #exception for NotSoBot
-       pass
-    elif message.author.id == ("172002275412279296"): #exception for Tatsumaki
-       pass
-    elif message.author.id == ("155149108183695360"): #exception for Dyno Bot
-       pass
+    if message.author.bot:
+        pass
              
 #the magnificent list of banned words
     elif "UwU" in message.content:
