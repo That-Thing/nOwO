@@ -304,11 +304,31 @@ async def on_message(message):
         await bot.kick(message.author)
         await bot.add_reaction(message, emoji="🖕")
         print ("Another libtard PWNED")
-
-
-
-
-
+    elif "ÒwÓ" in message.content:
+        await bot.send_message(message.channel, "__**GET THE HELL OUT OF HERE WITH YOUR GAY OwO's**__")
+        await bot.kick(message.author)
+        await bot.add_reaction(message, emoji="🖕")
+        print ("Another libtard PWNED")
+    elif "CwC" in message.content:
+        await bot.send_message(message.channel, "__**GET THE HELL OUT OF HERE WITH YOUR GAY OwO's**__")
+        await bot.kick(message.author)
+        await bot.add_reaction(message, emoji="🖕")
+        print ("Another libtard PWNED")
+    elif "òwó" in message.content:
+        await bot.send_message(message.channel, "__**GET THE HELL OUT OF HERE WITH YOUR GAY OwO's**__")
+        await bot.kick(message.author)
+        await bot.add_reaction(message, emoji="🖕")
+        print ("Another libtard PWNED")
+    elif "QwQ" in message.content:
+        await bot.send_message(message.channel, "__**GET THE HELL OUT OF HERE WITH YOUR GAY OwO's**__")
+        await bot.kick(message.author)
+        await bot.add_reaction(message, emoji="🖕")
+        print ("Another libtard PWNED")
+    elif "ÕwÕ" in message.content:
+        await bot.send_message(message.channel, "__**GET THE HELL OUT OF HERE WITH YOUR GAY OwO's**__")
+        await bot.kick(message.author)
+        await bot.add_reaction(message, emoji="🖕")
+        print ("Another libtard PWNED")
 
 
 
